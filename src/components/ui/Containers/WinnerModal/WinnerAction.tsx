@@ -5,5 +5,5 @@ interface WinnerActionProps {
 }
 
 export default function WinnerAction({ children }: WinnerActionProps) {
-	return <div className="flex justify-between gap-4 w-full">{children}</div>;
+	return <footer className="flex justify-between gap-4 w-full">{children}</footer>;
 }
