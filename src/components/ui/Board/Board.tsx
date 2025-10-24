@@ -1,7 +1,7 @@
 "use client";
 import BoardGrid from "@/components/ui/Board/BoardGrid";
-import SingleBoardContainer from "@/components/ui/Containers/Board/SingleBoardContainer";
 import Cell from "@/components/ui/Cell/Cell";
+import SingleBoardContainer from "@/components/ui/Containers/Board/SingleBoardContainer";
 import type { BoardProps } from "@/services/types";
 
 const Board: React.FC<BoardProps> = ({
